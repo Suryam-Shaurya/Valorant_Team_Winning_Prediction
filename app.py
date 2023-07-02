@@ -141,6 +141,7 @@ def predict_output(riot_id = riot_id, tagline = tagline):
 
     all_plr_data = []
     for i, player in enumerate(players_url):
+        faulty_plr = i
         print(player)
         to_add, server_reach, data_found = get_match_data(player)
         if not server_reach or not data_found:
@@ -183,7 +184,10 @@ def predict_output(riot_id = riot_id, tagline = tagline):
         if not server_reach:
             st.write('### :red[Server Not Reachable...:(:construction:]')
         elif not data_found:
-            st.write('### :red[DATA NOT FOUND....]:sneezing_face:')
+            if faulty_plr < 5:
+                st.write(f"### :red[DATA NOT FOUND for Team A's Player {faulty_plr+1}]:sneezing_face:")
+            else:
+                st.write(f"### :red[DATA NOT FOUND for] :orange[Team B's] :red[Player {faulty_plr-4}]:sneezing_face:")
 
 
 if valid_data:
