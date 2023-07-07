@@ -49,9 +49,9 @@ The model predicted the winning chance of Team A(39.87%) is less than Team B(60.
 
 * This project presents an ensemble model composed of **four base classifiers** for  predictions. The ensemble model combines the outputs of the following four base models: 
 
-	1\. Support Vector Classifier with **RBF** kernel
-	2\. LightGBM Classifier
-	3\. Support Vector Classifier with **linear** kernel
+	1\. Support Vector Classifier with **RBF** kernel</br>
+	2\. LightGBM Classifier</br>
+	3\. Support Vector Classifier with **linear** kernel</br>
 	4\. Logistic Regression
 
 * In the process of optimizing classifiers, **RandomSearchCV** is utilized to fine-tune specific base classifiers, while others are manually tuned.
