@@ -77,16 +77,9 @@ for plar in player_id:
         break
 
 
-# st.write('The riot_id data is', riot_id)
-# riot_id = ['SHORT BUS RIDER', 'curry', 'twitch ion2x', 'Roar', 'squaretale',
-#            'nabil', 'duK', 'synapse 37', 'ShimmyXD', 'Hydroxic']
-# tagline = ['kit', '66666', '2009', '1234', 'NA1',
-#            'jess', 'gamer', '9876', 'NA1', '0000']
 agent = ['reyna', 'sova', 'jett', 'omen', 'cypher',
          'sova', 'jett', 'breach', 'omen', 'killjoy']
 
-# import sys
-# sys.exit()
 
 
 def predict_output(riot_id = riot_id, tagline = tagline):
