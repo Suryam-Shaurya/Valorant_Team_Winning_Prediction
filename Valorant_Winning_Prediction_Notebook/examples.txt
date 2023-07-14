@@ -1,0 +1,41 @@
+1) Match 1:
+
+match_url: https://blitz.gg/valorant/match/twitch%20typo-manic/0981a882-4e7d-371a-70c4-c3b4f46c504a/66e24d80-c753-4184-90c2-6e48121f2aab
+
+Outcome: Victory
+Map: Bind
+
+Team A:
+twitch typo#MANIC
+Drag0n#2026
+TenzinFPS#VAL
+TONAY#KOLER
+Orb#washd
+
+Team B:
+Tobitotos0 TTV#amor
+neptune nsic#nsicc
+Camarly#70WW
+TLOTH#LFT
+Vëër#LFT
+
+2) Match 2:
+
+match_url: https://blitz.gg/valorant/match/wingedwalrus12-rizz/0981a882-4e7d-371a-70c4-c3b4f46c504a/f6608585-4bdc-48b1-866e-ea0f88f266dc
+
+Outcome: Defeat
+Map: Fracture
+
+Team A:
+wingedwalrus12#rizz
+VYX#dud
+PA1NT#BeanZ
+Tea#6teen
+xanderaj#o7dmn
+
+Team B:
+Wicked#Leah
+dogo#zero
+Kushay#meow
+HOON#sexy
+Jalen Brunson#Floof
