@@ -45,6 +45,8 @@ This project leverages data obtained through **web scraping** from a Valorant ma
 
 The model predicted the winning chance of Team A(39.87%) is less than Team B(60.13%). Hence Team A would lose the match. In actuality, Team A lost the game with a score of 9-13.
 
+> Please note that data for certain players may not be found due to their private account settings.
+
 ## Model
 
 * This project presents an ensemble model composed of **four base classifiers** for  predictions. The ensemble model combines the outputs of the following four base models: 
