@@ -113,8 +113,16 @@ def predict_output(riot_id = riot_id, tagline = tagline):
 
             if dta_rec:
                 KD = float(player_stat[0].find_all('p', class_ = 'stat-data-point')[0].text.strip())
-                Econ = float(player_stat[4].find_all('p', class_ = 'stat-data-point')[0].text.strip())
-                avg_score = float(player_stat[3].find_all('p', class_ = 'stat-data-point')[0].text.strip())
+                Econ_str = list(player_stat[4].find_all('p', class_ = 'stat-data-point')[0].text.strip())
+                if ',' in Econ_str:
+                    Econ_str.remove(',')
+                Econ = float(''.join(Econ_str))
+
+
+                avg_score_str = list(player_stat[3].find_all('p', class_ = 'stat-data-point')[0].text.strip())
+                if ',' in avg_score_str:
+                    avg_score_str.remove(',')
+                avg_score = float(''.join(avg_score_str))
 
                 player_stat_lst.append(KD)
                 player_stat_lst.append(Econ)
